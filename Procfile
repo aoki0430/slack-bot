@@ -1,1 +1,1 @@
-web: bundle exec rackup config.ru -p $PORT
+app: bundle exec ruby slack-mentionbot.rb
