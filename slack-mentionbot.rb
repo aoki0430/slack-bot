@@ -1,7 +1,5 @@
 require 'slack-ruby-client'
-require 'sinatra'
 
-get '/' do
   Slack.configure do |conf|
     # 先ほど控えておいたAPI Tokenをセット
     conf.token = 'xoxp-306031066326-305175088802-304655691217-1c7608e975ff03bf9a9b6fdcc8292423'
@@ -61,4 +59,3 @@ get '/' do
 
   # Slackに接続
   client.start!
-end
