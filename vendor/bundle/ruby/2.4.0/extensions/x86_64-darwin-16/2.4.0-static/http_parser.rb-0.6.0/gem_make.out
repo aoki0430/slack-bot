@@ -1,0 +1,16 @@
+current directory: /Users/aokiryouta/twitterbot/vendor/bundle/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/Users/aokiryouta/.rbenv/versions/2.4.0/bin/ruby -r ./siteconf20180126-45034-15ukuai.rb extconf.rb
+creating Makefile
+
+current directory: /Users/aokiryouta/twitterbot/vendor/bundle/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/aokiryouta/twitterbot/vendor/bundle/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/aokiryouta/twitterbot/vendor/bundle/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20180126-45034-n4uv2
