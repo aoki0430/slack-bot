@@ -1,4 +1,5 @@
 require 'slack-ruby-client'
+require 'sinatra'
 
 Slack.configure do |conf|
   # 先ほど控えておいたAPI Tokenをセット
