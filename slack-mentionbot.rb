@@ -2,7 +2,7 @@ require 'slack-ruby-client'
 
   Slack.configure do |conf|
     # 先ほど控えておいたAPI Tokenをセット
-    conf.token = 'xoxp-306031066326-305175088802-304655691217-1c7608e975ff03bf9a9b6fdcc8292423'
+    conf.token = ENV['SLACK_API_TOKEN']
   end
 
   # RTM Clientのインスタンスを生成
